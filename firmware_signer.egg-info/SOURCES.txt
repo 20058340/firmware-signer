@@ -1,0 +1,8 @@
+README.md
+setup.py
+firmware_signer.egg-info/PKG-INFO
+firmware_signer.egg-info/SOURCES.txt
+firmware_signer.egg-info/dependency_links.txt
+firmware_signer.egg-info/top_level.txt
+signer/__init__.py
+signer/keys.py
