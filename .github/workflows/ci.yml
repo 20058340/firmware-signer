@@ -23,12 +23,3 @@ jobs:
 
       - name: Run tests
         run: pytest tests/ -v
-```
-
----
-
-### Step 3 — Check spaces in VS Code
-
-After pasting, look at the **bottom right corner** of VS Code. It must say:
-```
-Spaces: 2
