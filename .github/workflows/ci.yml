@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt && pip install -e .
@@ -27,9 +27,8 @@ jobs:
 
 ---
 
-### Key things to check in YAML
+### Step 3 — Check spaces in VS Code
 
-YAML is very strict about spaces:
+After pasting, look at the **bottom right corner** of VS Code. It must say:
 ```
-❌ Wrong  →  use TAB characters
-✅ Right  →  use SPACES only
+Spaces: 2
