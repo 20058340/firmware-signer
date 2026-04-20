@@ -32,7 +32,7 @@ jobs:
       - name: Show test summary
         if: always()
         run: |
-          echo "All tests completed!"
+          echo " All tests completed!"
 ```
 
 ---
